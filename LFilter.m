@@ -64,9 +64,4 @@ elseif (strcmp(Postproc,'absolute')) #da new project
 else
 endif
 
-endfunction #
 
-fil=Sobel('H')
-im=imread('image-2.png')
-res=LFilter(im,fil,'cutoff')
-figure,imshow(res)
