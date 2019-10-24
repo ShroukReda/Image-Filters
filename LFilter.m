@@ -53,7 +53,7 @@ if (strcmp(Postproc,'cutoff'))
             endif
         endfor
     endfor
-elseif (strcmp(Postproc,'absolute')) #da new project
+elseif (strcmp(Postproc,'absolute')) 
     for i = inx:H-pad
         for j = inx:W-pad
             if(Res(i,j)<0)
